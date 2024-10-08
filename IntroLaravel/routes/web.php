@@ -8,11 +8,16 @@ use Illuminate\Support\Facades\Route;
 }); */
 
 // RUTA TIPO VIEW
-Route::view('/','welcome');
+Route::view('/','inicio')->name ('rutainicio');
 
 
 //CREACION DE RURTA DE NUESTRO FORMULARIO DE VISTA 
 //RUTA TIPO VIEW
-Route::view('/form','formulario');
+Route::view('/formu','formulario')->name ('rutaform');
+
+
+// Ruta de clientes
+Route::view('/cliente','clientes')->name('rutaclientes');
+
 
 
