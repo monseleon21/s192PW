@@ -19,5 +19,5 @@ Route::view('/formu','formulario')->name ('rutaform');
 // Ruta de clientes
 Route::view('/cliente','clientes')->name('rutaclientes');
 
-
-
+// Ruta de componentes
+Route::view('/component','componentes')->name('rutacomponentes');
