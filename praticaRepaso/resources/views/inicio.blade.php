@@ -58,8 +58,8 @@
 <div class="d-flex flex-column justify-content-center align-items-center text-center full-height">
         <h1 class="display-1">María Monserrat Campuzano León</h1>
         <p>Edad: 21 años</p>
-        <a href="" class="btn btn-primary">REPASO 1</a>
-        <!-- <a href="/formulario" class="btn btn-danger">Ir al Registro</a> -->
+        <a href="{{ route ('rutarepaso') }}" class="btn btn-primary">Repaso 1</a>
+        
     </div>
 </body>
 </html>
