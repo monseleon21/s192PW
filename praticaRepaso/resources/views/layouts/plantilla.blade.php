@@ -15,7 +15,7 @@
             padding: 0;
         }
 
-        /* Estilos para la barra de navegación */
+       
         nav {
             width: 100%;
             background-color: rgba(255, 255, 255, 0.1);

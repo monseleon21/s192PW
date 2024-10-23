@@ -8,14 +8,9 @@ class ConvertidorController extends Controller
 {
     public function convert(Request $request)
     {
-        // Obtén el valor ingresado y el tipo de conversión
         $cantidad = $request->input('cantidad');
         $conversion = $request->input('conversion');
-
-        // Inicializa la variable de resultado
         $resultado = '';
-
-        // Lógica de conversión
         switch ($conversion) {
             case 'mb-gb':
                 $resultado = $cantidad . " MB son " . ($cantidad / 1024) . " GB";
@@ -30,11 +25,11 @@ class ConvertidorController extends Controller
                 $resultado = $cantidad . " TB son " . ($cantidad * 1024) . " GB";
                 break;
             default:
-                $resultado = "Conversión no válida.";
+                $resultado = "No se pusieron datos.";
         }
 
-        // Retorna la vista con el resultado
-        return view('repaso1', ['resultado' => $resultado]);
+      
+        return view('repaso1', ['resultado' =>$resultado]);
     }
 }
 
