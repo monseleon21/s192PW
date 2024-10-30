@@ -57,9 +57,7 @@ En la novela aparece un ente maligno que adopta varias formas para atraer a unos
     </article>
 </section>
 
-<footer style="text-align: center; padding: 10px; background-color: #f2f2f2; width: 100%; position: fixed; bottom: 0;">
-    <p>Biblioteca 20 minutos, Derechos reservados © | 29 Octubre 2024</p>
-</footer>
+
 
 
 
