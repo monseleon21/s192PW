@@ -57,9 +57,4 @@ En la novela aparece un ente maligno que adopta varias formas para atraer a unos
     </article>
 </section>
 
-
-
-
-
-
 @endsection
