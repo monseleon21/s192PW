@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     @vite(['resources/js/app.js'])
+    @csrf
 </head>
 <body>
 
@@ -15,26 +16,31 @@
 
     <form>
 
+    @session('exito')
+
+
+
+    @endsession('exito)
         <div class="mb-3">
             <label  class="form-label">Correo: </label>
-            <input type="text" class="form-control" >
+            <input type="text" class="form-control" name="txtcorreo">
         </div>
 
         <div class="mb-3">
             <label class="form-label">Contraseña: </label>
-            <input type="text" class="form-control" >
+            <input type="text" class="form-control" name="txtcontrasena">
         </div>                
 
         <div class="mb-3">
             <label  class="form-label">Edad: </label>
-            <input type="text" class="form-control"  >
+            <input type="text" class="form-control" name="txtedad" >
         </div>
 
 
 
         <button type="" class="btn btn-danger "> Guardar Usuario</button>
 
-
+</form>
 </div>
 
 
