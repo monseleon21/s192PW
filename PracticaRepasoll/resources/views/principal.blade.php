@@ -16,6 +16,7 @@
             Gacy nació en Waterloo, Iowa, en marzo de 1942. Cuando su madre, años después, testificó en el juicio por los asesinatos de su hijo, contó la brutalidad con la que John Gacy padre trataba a su hijo: desde palizas con el cinturón hasta encierros en el sótano a oscuras, las humillaciones que sufriría de niño quedarían bien retratadas en el testimonio de su madre.
 
             Cabe decir que John Gacy no era hijo único, y que toda la prole de la familia recibió el mismo trato por parte del padre. Sin embargo, él fue el único que acabó convirtiéndose en un asesino.
+            <br></br>
 
             Gacy, en las cintas que quedaron grabadas con sus confesiones, explicaba que era un niño diferente a los demás, más "delicado", a quien le interesaba más entender "cómo crecían las flores que practicar deportes". Esto lo convertía en una vergüenza para su padre que, según él, le recordaba constantemente que "no era suficiente". "Marica", "estúpido" y "niño de mamá" eran los ataques verbales más frecuentes de su padre hacia él.
 
@@ -27,6 +28,7 @@
 
             En 1972 se casaba por segunda vez, en esta ocasión con Carol, una mujer divorciada madre de dos niñas, de quien se separaría solo cuatro años después. El 2 de enero de ese mismo año, Gacy había matado por primera vez. Su víctima fue un chico de quince años llamado Timothy McCoy. Sería el primero de una lista de treinta y tres adolescentes que perdieron la vida a manos de Gacy.
 
+            <br></br>
             ¿Quién es Pogo el payaso, "el payaso asesino"?
 
             Al oír hablar de John Wayne Gacy, "el payaso asesino", es frecuente recurrir a la imagen de un hombre que usa un disfraz de payaso para atraer víctimas potenciales, pero, en realidad, en la vida de Gacy eran cosas diferentes.
@@ -41,6 +43,8 @@
 
             La víctima de más edad tenía 21 años. La más joven, 14.
 
+            <br></br>
+            
             Existe una parte del testimonio de Gacy particularmente llamativa. Él se explica así: "Una persona heterosexual es alguien que se enamora de personas del sexo contrario. Una persona homosexual es alguien que se enamora de personas de su mismo sexo. Un bisexual solo tiene relaciones con el mismo sexo por placer, es como si el otro cuerpo fuera solo un juguete, es parecido a la masturbación. Los homosexuales son unos enfermos". Y después, y a lo largo del resto de su vida, insistió, de manera fehaciente y hasta delirante, en el que él no era homosexual.Del sótano de John Wayne Gacy recuperaron veintinueve cuerpos. Otros cuatro, incluido el de Robert Piest, habían sido arrojados al río Des Plaines.
 
             Gacy fue condenado a muerte, momento que retrasó a base de varias apelaciones, pero finalmente fue ejecutado por inyección letal en 1994, catorce años después de recibir su condena.
