@@ -1,17 +1,17 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Requests\validadorform;
 
 use Illuminate\Http\Request;
 
 class controladorVistas extends Controller
 {
-    public function formUsuarios(){
-        return view('formUsu');
+    public function home (){
+        return view('formUsuarios');
 
     }
 
-   public function procesarf (validadorform $peticionValidada){
+   public function procesarForm(validadorform $peticionValidada){
 
 
     $validated= $peticion->validate([

@@ -7,10 +7,10 @@ use App\Http\Controllers\controladorVistas;
     return view('forUsu');
 });  */
 
-/* Route::view('/','formUsuarios')->name('formUsu');
+/*Route::view('/','formUsuarios')->name('formUsu');
  */
 //ruta de controlador Vistas 
-Route::get('/', [controladorVistas::class, 'formUsuarios'])->name('formUsu');
+Route::get('/', [controladorVistas::class, 'home'])->name('formUsu');
 
 // envjuar info del boton
 //Route::post('/enviarf', [controladorVistas::class, 'procesarf'])->name('rutaenviar');

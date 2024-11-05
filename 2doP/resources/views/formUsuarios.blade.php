@@ -18,7 +18,7 @@
 
     @session('exito')
 
-
+<x-Alert tipo="danger"> {{ $value}} </x-Alert>
 
     @endsession('exito)
         <div class="mb-3">
