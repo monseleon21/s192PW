@@ -10,7 +10,6 @@ use App\Http\Controllers\clienteController;
 // Controlador vistas
 Route::get('/', [controladorVistas::class, 'home'])->name('rutainicio');
 
-Route::get('/cliente', [controladorVistas::class, 'consulta'])->name('rutaclientes');
 
 Route::view('/component','componentes')->name('rutacomponentes');
 
@@ -22,6 +21,8 @@ Route::get('/cliente/create', [clienteController::class, 'create'])->name('rutaf
 
 // ruta para mnandar el formulario al controlador
 Route::post('/cliente',[clienteController::class,'store'])->name('enviaCliente');
+
+Route::get('/cliente', [clienteController::class, 'index'])->name('rutaclientes');
 
 
 
