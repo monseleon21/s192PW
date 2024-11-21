@@ -26,6 +26,11 @@
                     </script>
                 @endsession
 
+                @if (session('exito'))
+    <div class="alert alert-success">{{ session('exito') }}</div>
+@endif
+
+
                 <div class="card font-monospace">
 
                 <div class"card-header fs-5 text-center text-primary">

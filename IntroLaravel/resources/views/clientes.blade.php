@@ -13,7 +13,7 @@
         <div class="card text- justify font-monospace">
 
             <div class="card-header fs-5 text-center text-primary">
-               María Monserrat Campuzano León
+            {{ $cliente->nombre }} {{ $cliente->apellido }}
             </div>
 
             <div class="card-body">
@@ -25,8 +25,16 @@
             </div>
 
             <div class="card-footer text-muted">
-              <button type="submit" class="btn btn-warning btn-sm"> {{__('Actualizar')}} </button>
-              <button type="submit" class="btn btn-danger btn-sm"> {{__('Eliminar')}} </button>
+              <!-- <button type="submit" class="btn btn-warning btn-sm"> {{__('Actualizar')}} </button> -->
+              <a href="{{ route('clientes.edit', $cliente->id) }}" class="btn btn-warning btn-sm">{{__('Actualizar')}}</a>
+              
+              <form action="{{ route('clientes.destroy', $cliente->id) }}" method="POST">
+
+              @csrf
+              @method('DELETE')
+    <button type="submit" class="btn btn-danger btn-sm">{{__('Eliminar')}}</button>
+</form>
+             
 
             </div>
 

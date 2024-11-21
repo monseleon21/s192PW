@@ -9,7 +9,7 @@ use Carbon\Carbon;
 use App\Http\Requests\validadorClientes;
 
 
-class clienteController extends Controller
+class ClienteController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -62,24 +62,47 @@ class clienteController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit($id)
     {
-        //
+$cliente = DB::table('clientes')->where('id', $id)->first();
+if(!cliente){
+    return redirect()->route('clientes.index')->with('error','cliente no se encontro');
     }
+    return view('editar', compact('cliente'));
+}
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'txtnombre'=>'required|string|max:255',
+            'txtapellido'=>'required|string|max:255',
+            'txtcorreo'=>'required|email',
+            'txttelefono'=>'required|string|max:15',
+        ]);
+        DB::table('clientes')->where('id',$id)->update([
+            'nombre'=>$request->input('txtnombre'),
+            'apellido'=>$request->input('txtapellido'),
+            'correo'=>$request->input('txtcorreo'),
+            'telefono'=>$request->input('txttelefono'),
+            'updated_at'=> Carbon::now(),
+        ]);
+      return redirect()->route('clientes.index')->with('exito','Cliente actualizado');
+      //posoblemente no es index y es inicio
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy($id)
     {
-        //
-    }
+        $cliente = DB::table('cliente')->where('id', $id)->first();
+        if (!$cliente){
+return redirect()->route('clientes.index')->with('error','cliente no enviado');
+        }        
+        DB::table('clientes')->where('id',$id)->delete();
+        return redirect()->route('clientes.index')->with('exito','Cliente eliminado');
+        }
 }
