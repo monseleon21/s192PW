@@ -7,15 +7,23 @@
             {{-- inicia Tarjeta con formulario --}}
 
             <div class="container mt-5 col-md-6">
+     <!--        @if(session('exito'))
+    <div class="alert alert-success">{{ session('exito') }}</div>
+@endif
+
+@if(session('error'))
+    <div class="alert alert-danger">{{ session('error') }}</div>
+@endif
+
 
                 @if (session('exito'))
                   <x-Alert tipo="success"> {{ session('exito') }} </x-Alert>
                 @endif
-                
-                @session('exito')
+                 -->
+             <!--    @session('exito')
                   <x-Alert tipo="danger"> {{ $value }} </x-Alert>
                 @endsession
-
+ -->
                 @session('exito')
                     <script>
                         Swal.fire({
